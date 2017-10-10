@@ -15,7 +15,7 @@ I have modified the `shawdb.sql` file found in the repository to pretty much do 
 4. Click `Import`
 5. Click `Browse...`
 6. Browse to `shawdb.sql` found in this repository
-7. Click `Go` - (All imported queries should be successful)
+7. Click `Go` - All imported queries should be successful
 8. Browse to index page - http://localhost/ICT3102-Assign/index.php
 9. Browse to admin page - http://localhost/ICT3102-Assign/admin.php
     - Username: `admin`
