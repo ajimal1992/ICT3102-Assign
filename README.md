@@ -17,6 +17,6 @@ I have modified the `shawdb.sql` file found in the repository to pretty much do 
 6. Browse to `shawdb.sql` found in this repository.
 7. Click `Go`.
 8. Browse to - http://localhost/ICT3102-Assign/index.php
-9. Browse to - http://localhost/phpfinalproject/admin.php
+9. Browse to - http://localhost/ICT3102-Assign/admin.php
   - Username: `admin`.
   - Password: `mypass`.
