@@ -2,6 +2,9 @@
 body{
     background-color: black;
 }
+.searchtext{
+    color: wheat;
+}
 .carousel{
     border: 10px solid black;
     padding: 10px;
@@ -20,10 +23,10 @@ body{
   background: linear-gradient(#5A0000, #920000, #5A0000); /* Standard syntax */
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
-  color: #fafafb; // white text color of the nav bar
+  color: #fafafb; /*// white text color of the nav bar */
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus  {
-  color: white; // white text color of nav bar when hovering
+  color: white; /*// white text color of nav bar when hovering */
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus  {
   background-color: black;
@@ -38,7 +41,7 @@ body{
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #fafafb; // current tab text color 
+  color: #fafafb; /* current tab text color */ 
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -46,13 +49,13 @@ body{
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #8770f6; // mobile view, menu bar border color
+  border-color: #8770f6; /*// mobile view, menu bar border color*/ 
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: black; //mobile view, background of menu bar when you clicked
+  background-color: black; /*//mobile view, background of menu bar when you clicked*/ 
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fafafb; //mobile view, text color of the menu bar
+  background-color: #fafafb; /*//mobile view, text color of the menu bar*/ 
 }
 
 

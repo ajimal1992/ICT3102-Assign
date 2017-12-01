@@ -50,19 +50,21 @@ session_destroy();
                             while ($row = mysqli_fetch_assoc($result)) {
                                 if($counter==3){
                                     break;
-                                }
+                                } 
                                 if ($counter == 0) {
-                                    echo '<div class = "item active">
-                                            <img src = "pictures/movies/'.$row['movie_ID'].$row['movie_image'] . '" class = "img-responsive img-rounded" alt = "movie' . $row['movie_ID'] . '"/>
+                                    echo '<div class = "item active">   
+                                    <img src = "pictures/movies/'.$row['movie_ID'].$row['movie_image'] . '" class = "img-responsive img-rounded" alt = "movie' . $row['movie_ID'] . '"/>
                                         </div>';
                                     $counter++;
-                                }   else {
+                                if($counter>0 && $counter<3){
                                     echo'<div class="item">
                                         <img src="pictures/movies/'.$row['movie_ID'].$row['movie_image'] .'" class="img-responsive img-rounded" alt="movie' . $row['movie_ID'] . '"/>
                                         </div>';
                                     $counter++;
                                 }
+                                }
                             }
+                            
                             ?>
                         </div>
                         <!-- Left and right controls -->
